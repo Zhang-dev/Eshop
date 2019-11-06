@@ -1,9 +1,10 @@
 import { items } from "./data/items.js";
 const app = (_ => {
   const audio = new Audio("../sounds/click.m4a");
-  audio.addEventListener('loadeddata', function() {
-    playPromise = audio.play();
-});
+  audio.addEventListener("loadeddata", function() {
+    audio.play();
+    console.log("audio")
+  });
 
   let searchWord = "";
 
