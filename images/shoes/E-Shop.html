@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/login.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./E-Shop_files/all.css">
+    <link rel="stylesheet" href="./E-Shop_files/styles.css">
+    <title>E-Shop</title>
+  <script id="wsSapUI5Server" type="text/javascript" src="chrome-extension://aonchkcgjlplmkdnkhpaedjognnennpp/sapui5.server.js" hassapui5="false"></script></head>
+
+  <body>
+    <div class="wrapper">
+      <nav id="top">
+        <div class="top-menu">
+          <div class="container">
+            <ul class="top" id="nav">
+              <li>
+                <a href="http://127.0.0.1:5500/login.html#"><i class="fa fa-phone"></i> <span>Service</span></a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/login.html#"><i class="fa fa-user"></i> <span>Mein Konto</span></a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/login.html#"><i class="fa fa-heart"></i> <span>Merkzettel</span></a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/shopping-cart.html"><i class="fa fa-shopping-cart"></i> <span>Warenkorb</span></a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/login.html#"><i class="fa fa-share"></i> <span>Ausloggen</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="header">
+          <div class="shop-logo">
+            <a href="http://127.0.0.1:5500/index.html"><img class="logo" src="./E-Shop_files/logo.png" alt="Logo"><span>Testing Demo Shop</span></a>
+          </div>
+          <div class="searchfield">
+            <input type="text" placeholder="Suchbegriff / Artikelnr. eingeben"><span class="search"><button><i class="fa fa-search"></i></button></span>
+          </div>
+          <div class="cart-button">
+              <a href="http://127.0.0.1:5500/shopping-cart.html">
+                <button>
+                  <i class="fa fa-shopping-cart"></i>
+                  <span class="cart">0 Artikel - €0,00</span>
+                </button>
+              </a>
+          </div>
+        </div>
+      </header>
+      <nav class="navbar" id="menu">
+        <div class="navbar__header">
+          <span id="categories">Kategorien</span>
+          <button class="navbar__button">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+        <div class="navbar__collapse">
+          <ul class="navbar__nav">
+            <li>
+              <a href="http://127.0.0.1:5500/login.html#">Damen</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/login.html#">Herren</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/login.html#">Multimedia</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/login.html#">Haushalt</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/login.html#">Sport</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/login.html#">Baumarkt</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/login.html#">Möbel</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/shoes.html">Schuhe</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="container">
+            <!-- login mask -->
+            <div class="login-wrapper">
+                <h2>Anmeldung</h2>
+                <!-- <form> -->
+                 <div class="login-mask">
+                    <p class="email">Deine E-Mail-Adresse:</p>
+                    <p class="password">Dein Passwort:</p>
+                    <div class="back">
+                      <a href="javascript:history.back()"><i class="fa fa-arrow-left"></i>Zurück</a>
+                    </div>
+                    <p class="login-header">Deine Anmeldedaten</p>
+                    <div class="email-input">
+                            <input type="email" id="email-input">
+                    </div>
+                    <div class="password-input">
+                            <input type="password" id="password-input">
+                    </div>
+                    <label class="logged">
+                        <input type="checkbox" id="keep-logged">
+                        <span class="logged__label">
+                            <span class="logged__text">Angemeldet bleiben</span>
+                        </span>
+                    </label>
+                    <div class="login-button">
+                        <button class="login">Anmelden</button>
+                    </div>
+                    <div class="register-button">
+                      <a href="http://127.0.0.1:5500/register.html">
+                        <button class="register">Jetzt registrieren</button>
+                      </a>
+                    </div>
+                 </div>
+               <!-- </form> -->
+            </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer__row">
+            <div class="footer__column">
+              <h4>
+                <i class="fa fa-phone-square" aria-hidden="true"></i> Service
+              </h4>
+              <span class="footer">Noch Fragen?<br>
+                123-1234567</span>
+              <ul class="footer">
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Rückruf-Service</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">service@eshop.de</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h5>Zahlungsarten</h5>
+              <ul class="footer">
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Rechnung</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Vorkasse</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Ratenzahlung</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">
+                        <i class="fab fa-cc-visa"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">
+                        <i class="fab fa-paypal"></i>
+                    </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h5>Über uns</h5>
+              <ul class="footer">
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Nachhaltigkeit</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Unternehmen</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Newsroom</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">AGB</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Datenschutz</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h5>Partner</h5>
+              <ul class="footer">
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Shopping24</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Versicherungen</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Shopping&amp;More</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">E-Shop in Ihrer Nähe</a>
+                </li>
+                <li>
+                  <a href="http://127.0.0.1:5500/login.html#">Werbung
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p>
+            Preisangaben inkl. gesetzl. MwSt. und zzgl. Service- und
+            Versandkosten
+            <br>
+            E-Shop © 2019
+          </p>
+        </div>
+      </footer>
+    </div>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<object id="__symantecPKIClientMessenger" data-supports-flavor-configuration="true" data-extension-version="0.5.0.109" style="display: none;"></object><span id="__symantecPKIClientDetector" style="display: none;">__PRESENT</span></body></html>
