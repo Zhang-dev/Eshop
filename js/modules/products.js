@@ -21,7 +21,7 @@ const products = (_ => {
                     <div class="product-thumbnail">
                       <div class="image">
                        <a href="#">
-                        <img src="/images/${item.id}.jpg" alt="product-thumbnail" />
+                        <img src="${item.image}" alt="product-thumbnail" />
                        </a>
                        <div class="add-to-cart">
                        <i class="fas fa-dollar-sign"></i>
