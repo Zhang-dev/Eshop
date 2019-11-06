@@ -1,6 +1,7 @@
 import { items } from "./data/items.js";
 const app = (_ => {
-  const audio = new Audio("../sounds/click.m4a");
+  const audio = new Audio("sounds/click.m4a");
+  console.log()
   audio.addEventListener("loadeddata", function() {
     audio.play();
     console.log("audio")
