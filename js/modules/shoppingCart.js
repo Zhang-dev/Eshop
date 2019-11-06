@@ -31,7 +31,7 @@ const shoppingCart = (_ => {
     let html = "";
     cart.items.forEach(item => {
       html += `<li>
-        <img src="/images/${item.id}.jpg" alt="">
+        <img src="${item.image}" alt="">
         <div class="product-description">
               <p class="item-name">${item.title}</p>
               <p class="item-details">${item.description}</p>
