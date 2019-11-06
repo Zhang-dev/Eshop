@@ -48,7 +48,7 @@ const app = (_ => {
                 <div class="product-thumbnail">
                   <div class="image">
                   <a href="#">
-                  <img src="/images/${item.id}.jpg" alt="product-thumbnail" />
+                  <img src="./images/${item.id}.jpg" alt="product-thumbnail" />
                   </a>
                 </div>
                 <div class="caption">
