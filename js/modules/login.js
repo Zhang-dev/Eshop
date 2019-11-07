@@ -7,10 +7,5 @@ const log =(_=>{
     const loginButtonEl = document.querySelector(".login-button input")
     console.log(loginButtonEl)
 
-    const listner =_=>{
-        loginButtonEl.addEventListener("click",function(){
-            
-        })
-    }
 })()
 app.listner()
