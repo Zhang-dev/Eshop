@@ -1,11 +1,11 @@
 import { items } from "./data/items.js";
 const app = (_ => {
-  const audio = new Audio("sounds/click.m4a");
-  console.log()
-  audio.addEventListener("loadeddata", function() {
-    audio.play();
-    console.log("audio")
-  });
+  // let audio = new Audio("../sounds/click.m4a");
+
+  // audio.addEventListener("loadeddata", function() {
+  //   audio.play();
+  //   console.log("audio");
+  // });
 
   let searchWord = "";
 
@@ -81,7 +81,6 @@ const app = (_ => {
   const listner = _ => {
     navButtonEls.forEach(button => {
       button.addEventListener("click", function() {
-        audio.play();
         let catego = button.innerHTML;
         saveCurrentCategory(catego);
         window.location.href = "products.html";
@@ -94,7 +93,6 @@ const app = (_ => {
     if (addtocartButtonEls !== null) {
       addtocartButtonEls.forEach(button => {
         button.addEventListener("click", function() {
-          audio.play();
           let imgSrc =
             button.parentElement.parentElement.firstElementChild
               .firstElementChild.src;
@@ -108,7 +106,6 @@ const app = (_ => {
     if (itemImageEls !== null) {
       itemImageEls.forEach(image => {
         image.addEventListener("click", function() {
-          audio.play();
           let id = image.src.slice(-6, -4);
           saveCurrentItem(id);
           window.location.href = "item-details.html";
